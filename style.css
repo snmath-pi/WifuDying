@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
+.main {
+    background-image: url('beigeAnime.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(237, 171, 233, 0.7);
+}
+
+.jj {
+    font-family: 'Barriecito', cursive;
+    font-size: 2.5rem;
+    color: rgb(180, 79, 79);
+    text-align: center;
+
+}
+.col {
+    width: 1000px;
+    /* border: 5px solid peru; */
+    /* border-radius: 5px; */
+    /* margin: 10px auto; */
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Barriecito', cursive;
+
+    font-size: 20px;
+}
+.col div {
+    width: 250px;
+    text-align: center;
+
+}
+input {
+    /* display: block; */
+    height: 50px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+
+}
